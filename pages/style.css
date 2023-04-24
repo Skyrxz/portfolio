@@ -1,0 +1,56 @@
+.password-gen-block {
+    background: url(../imgs/project-thumbnails/password-generator.png), #4831d3 !important;
+}
+
+.unit-converter-block {
+    background: url(../imgs/project-thumbnails/unit-converter.png), #4831d3 !important;
+}
+
+.calculator-block {
+    background: url(../imgs/project-thumbnails/calculator.png), #4831d3 !important;
+}
+
+.block-img {
+    height: min(150px, 35vw);
+    width: 100%;
+    background-size: min(200px ,15vw) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: center !important;
+    background-position-y: top !important;
+}
+
+
+.block {
+    height: min( 650px,30vw);
+    width: min( 350px,30vw);
+}
+
+.blockquote {
+    height: 5vw;
+    background: #181823;
+    padding: 1vw;
+}
+
+.block-text {
+    font-size: 1.5vw;
+    color: #E9F8F9;
+}
+
+.projects-wrapper {
+    display: flex;
+    height: 60vh !important;  
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2.5vw;
+    padding-right: 2.5vw;
+    background: #537FE7 !important;
+}
+
+.projects {
+    margin-top: 100px;
+}
+
+.projects-wrapper {
+    background: #181823;
+}

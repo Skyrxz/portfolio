@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="assets/lib/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="assets/lib/aos@2.3.1/dist/aos.js"></script>
+        <title>Ibereola Oludare | Portfolio</title>
+        <script src="script.js" defer></script>
+    </head>
+    <body id="body">
+        <header id="header" class="">
+            <span class="logo">ibereola</span>
+            <nav>
+                <ul class="nav-list">
+                    <li><a class="active" href="#transparent">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <button id="nav-btn" class="nav-btn">
+                    <svg fill="currentColor" viewBox="0 0 100 80" width="40" height="40">
+                        <rect width="100" height="5"></rect>
+                        <rect x="30" y="30" width="70" height="5"></rect>
+                        <rect x="60" y="60" width="40" height="5"></rect>
+                    </svg>    
+                </button>
+            </nav>
+        </header>
+        <div class="linear-gradient">
+
+        </div>
+        <div class="sliding-nav hidden" id="sliding-nav">
+            <button class="sliding-nav-close-btn" id="sliding-nav-close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="40" height="40"
+                    viewBox="0,0,256,256"
+                    style="fill:#000000;">
+                    <g fill-opacity="0" fill="#dddddd"
+                    fill-rule="nonzero"
+                    stroke="none"
+                    stroke-width="1"
+                    stroke-linecap="butt"
+                    stroke-linejoin="miter"
+                     stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,256v-256h256v256z" id="bgRectangle"></path></g><g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M7.71875,6.28125l-1.4375,1.4375l17.28125,17.28125l-17.28125,17.28125l1.4375,1.4375l17.28125,-17.28125l17.28125,17.28125l1.4375,-1.4375l-17.28125,-17.28125l17.28125,-17.28125l-1.4375,-1.4375l-17.28125,17.28125z"></path></g></g>
+                </svg>
+            </button>
+            <ul class="sliding-nav-inner" id="sliding-nav-inner">
+                <a class="" href="#transparent"><li id="home-li">Home</li></a>
+                <a class="" href="#about"><li id="about-li">About</li></a>
+                <a class="" href="#work"><li id="work-li">Work</li></a>
+                <a class="" href="#contact"><li id="contact-li">Contact</li></a>
+            </ul>
+        </div>
+        <div id="img-set">
+            <div class="left-cliff" id="left-cliff"><img src="imgs/background/left-cliff.png" alt="" srcset=""></div>    
+            <div id="right-cliff" class="right-cliff"><img src="imgs/background/right-cliff.png" alt="" srcset=""></div>
+            <div id="stars" class="stars"><img src="imgs/background/stars.png" alt="" srcset=""></div>    
+        </div>
+        <div class="transparent" id="transparent">
+            <span id="sub-text">Hi, I'm Ibereola</span>
+            <span id="main-text">Let's Talk</span>
+            <a href="https://ola-port.rf.gd" class="btn" id="big-btn">></a>
+        </div>
+        <section class="about" id="about">
+            <div class="grid-about">
+                <div class="handsome-dude"  data-aos="fade-right"></div>
+                <div class="text">
+                    <span class="h1"  data-aos="fade-up">About Me</span>
+                    <p data-aos="fade-up">Hi! I'm Ibereola. I am a web designer that loves making websites with stylish animations and great designs. I make excellent designs and even with some functional extensions and soon apps.</p>
+                    <br>
+                    <br>
+                    <!-- <p data-aos="fade-up">
+                        <span class="grid-h">FAQ</span>
+                        <br>
+                        <p  data-aos="fade-up">
+                            Gender: Male
+                            <br>
+                            Age: 14
+                            <br>
+                            Degree: JSCE
+                            <br>
+                        </p>
+                    </p> -->
+                </div>
+            </div>
+        </section>
+        <section class="work" id="work">
+            <span class="h1" data-aos="fade-up">My Work</span>
+            <div class="flex-stuff">
+                <div class="project" data-aos="fade-up">
+                    <span class="project-img pass"></span>
+                    <div class="words">
+                        <div class="project-text">
+                            <span class="projects-title">Password Generator</span>
+                            <p class="desc">An extension that generates passwords.</p>
+                            <div class="tags">
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/html.png" alt="" srcset="">HTML</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/js.png" alt="" srcset="">JS</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/css.png" alt="" srcset="">CSS</span>
+                            </div>  
+                        </div>
+                        <div class="project-links">
+                            <a target="_blank" href="https://playful-bonbon-4d3c1a.netlify.app">Live Preview</a>
+                            <a target="_blank" href="https://github.com/skyrxz/password-generator">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up">
+                    <span class="project-img unit"></span>
+                    <div class="words">
+                        <div class="project-text">
+                            <span class="projects-title">Unit Converter</span>
+                            <p class="desc">An extension that is used to convert from metric to imperial units.</p>
+                            <div class="tags">
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/html.png" alt="" srcset="">HTML</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/js.png" alt="" srcset="">JS</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/css.png" alt="" srcset="">CSS</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a target="_blank" href="https://snazzy-madeleine-c762cb.netlify.app">Live Preview</a>
+                            <a target="_blank" href="https://github.com/skyrxz/unit-converter">View Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up">
+                    <span class="project-img calculator"></span>
+                    <div class="words">
+                        <div class="project-text">
+                            <span class="projects-title">Calculator</span>
+                            <p class="desc">A simple web calculator.</p>
+                            <div class="tags">
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/html.png" alt="" srcset="">HTML</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/js.png" alt="" srcset="">JS</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/css.png" alt="" srcset="">CSS</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a target="_blank" href="https://eloquent-monstera-1150f1.netlify.app">Live Preview</a>
+                            <a target="_blank" href="https://github.com/skyrxz/calculator">View Code</a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="project" data-aos="fade-up">
+                    <span class="project-img the-biggest-flex"></span>
+                    <div class="words">
+                        <div class="project-text">
+                            <span class="projects-title">The Biggest Flex</span>
+                            <p class="desc">This is my web portfolio that utilizes all I have learned in the past year.</p>
+                            <div class="tags">
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/html.png" alt="" srcset="">HTML</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/js.png" alt="" srcset="">JS</span>
+                                <span class="tag"><img class="tag-icon" src="imgs/icon/css.png" alt="" srcset="">CSS</span>
+                            </div>    
+                        </div>
+                        <div class="project-links">
+                            <a target="_blank" href="#">Live Preview</a>
+                            <a target="_blank" href="https://github.com/skyrxz/porfolio">View Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="stuff">
+            <span class="h1"  data-aos="fade-up">My Tech</span>
+            <div class="flex-stuff">
+                <div class="tile" data-aos="fade-right">
+                    <img class="tile-img" src="imgs/icon/html.png" alt="" srcset="">
+                </div>
+                <div class="tile" data-aos="fade-right" data-aos-delay="200">
+                    <img class="tile-img" src="imgs/icon/css.png" alt="" srcset="">
+                </div>
+                <div class="tile" data-aos="fade-right" data-aos-delay="300">
+                    <img class="tile-img" src="imgs/icon/js.png" alt="" srcset="">
+                </div>
+                <div class="tile" data-aos="fade-right" data-aos-delay="400">
+                    <img class="tile-img" src="imgs/icon/vscode.png" alt="" srcset="">
+                </div>
+                <div class="tile" data-aos="fade-right" data-aos-delay="500">
+                    <img class="tile-img" src="imgs/icon/github.png" alt="" srcset="">
+                </div>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="wave">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+                </svg>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <span class="h1 of0015"  data-aos="fade-up">Get in Touch</span>
+            <div class="contact-box" data-aos="fade">
+                <a href="mailto:ibereola9206@gmail.com" class="btn-transparent">Say Hello</a>
+            </div>
+            <p class="contact-text">* Send me a mail!</p>
+        </section>
+        <div class="center footer">
+            <div class="notes">Coded by Ibereola Oludare.</div>
+            <ul>
+                <li><a href="https://github.com/skyrxz"><img class="footer-icon" src="imgs/icon/github-icon.png" alt=""></a></li>
+                <li><a href="https://instagram.com/ibereolaisbored"><img class="footer-icon" src="imgs/icon/instagram-icon.png" alt=""></a></li>
+                <li><a href="https://twitter.com/dani3ltweets"><img class="footer-icon" src="imgs/icon/twitter-icon.png" alt=""></a></li>
+            </ul>
+        </div>        
+    </body>
+</html>

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/7f5efbefa73e3ee486c502b66fb9200e108ad047/cbb2f/fonts/sf-ui-text-heavy.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 900;
+  }
+
+  @font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/ecc2177145d53dcd3f567531af3e9557fb211d3b/4faff/fonts/sf-ui-text-regular.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+  @font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/8036012d5d6add8a4bad0ea000696eaaa65f48e8/b349c/fonts/sf-ui-text-bold.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  @font-face {
+    font-family: 'SF UI Text';
+    src: url("https://d33wubrfki0l68.cloudfront.net/e8020de2a082b7f99bd455cd96d87d90e5104367/809fe/fonts/sf-ui-text-light.woff") format('woff');
+    font-display: swap;
+    font-style: normal;
+    font-weight: 200;
+  }
